@@ -1,0 +1,26 @@
+[
+  {
+    "name": "sorted_d10",
+    "constraints": 6786,
+    "proveMsMedian": 525,
+    "verifyMs": 14
+  },
+  {
+    "name": "indexed_d10",
+    "constraints": 4170,
+    "proveMsMedian": 426,
+    "verifyMs": 30
+  },
+  {
+    "name": "sorted_d20",
+    "constraints": 11646,
+    "proveMsMedian": 934,
+    "verifyMs": 18
+  },
+  {
+    "name": "indexed_d20",
+    "constraints": 6600,
+    "proveMsMedian": 558,
+    "verifyMs": 18
+  }
+]
