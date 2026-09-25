@@ -46,9 +46,10 @@
 npm install
 npm run build   # 回路4本のコンパイルと Powers of Tau（2^15）の生成
 npm start       # 性能計測と古いルート攻撃の再現（結果は results.json）
+node gen_fixture.mjs  # Solidity 検証器と Foundry 用の証明を ../contracts に生成
 ```
 
 ## 次の一歩
-- エポック方式: 公開入力に `epoch` を加え、検証者は「現在のエポックと1つ前」だけ許す → Δ を時間で上界化。
-- Solidity 検証器を生成し、Foundry でガス代を測る（`snarkjs zkey export solidityverifier`）。
-- リスト更新のコスト（ツリー再計算・ルート投稿のガス）の計測。
+- 受理ルール3種の Solidity 実装とガス計測は `../contracts` と `../docs/04_受理ルールとガス.md` を参照。
+- リスト更新のオフチェーンコスト（ツリー再計算）の計測。
+- 差分証明方式の回路。

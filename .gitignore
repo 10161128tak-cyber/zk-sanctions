@@ -3,3 +3,5 @@ out/
 *.ptau
 *.zkey
 circom-poc/circuits/*_d*.circom
+contracts/out/
+contracts/cache/
